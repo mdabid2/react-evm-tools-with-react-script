@@ -26,9 +26,9 @@ require('./routes')(app);
 //   res.sendFile(path.resolve(__dirname, '../../App-webpack/dist/index.html'));
 //   res.end();
 // });
-app.use(express.static(path.resolve(__dirname, '../../App-react-script/build')));
+app.use(express.static(path.resolve(__dirname, '../../client/build')));
 app.get('*', function (req, res) {
-  res.sendFile(path.resolve(__dirname, '../../App-webpack/build/index.html'));
+  res.sendFile(path.resolve(__dirname, '../../client/build/index.html'));
   res.end();
 });
 app.listen(port, '0.0.0.0', (err) => {
