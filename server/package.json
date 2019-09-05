@@ -1,0 +1,24 @@
+{
+  "name": "EventManagementServer",
+  "version": "1.0.0",
+  "description": "Event Management Internal Project",
+  "author": "Sapient",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node server"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "mongoose": "^5.0.11",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.2",
+    "nodemailer": "~2.7.2"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5"
+  }
+}

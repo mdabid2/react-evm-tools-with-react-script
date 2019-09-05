@@ -1,0 +1,229 @@
+
+.App-logo {
+  height: 80px;
+}
+.logOut {
+  float: right;
+}
+.main {
+  margin:30px 0;;
+}
+.App-header, .App-footer {
+  background-color: #6f5c5c;
+  height: 120px;
+  color: white;
+}
+.App-footer {
+  padding-top:15px;
+  height: 60px;
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.center {
+  text-align: center;
+}
+.gaps {
+  margin:20px 0;
+}
+.btn {
+  margin-right: 10px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.loginFrom, .registerFrom, .addEvent {
+  margin: 0 auto
+}
+/* search box */
+
+.button_box2 {
+  margin:100px auto;
+  }
+  /*-------------------------------------*/
+  .cf:before, .cf:after{
+  content:"";
+  display:table;
+  }
+  .cf:after{
+  clear:both;
+  }
+  .cf{
+  zoom:1;
+  }
+  /*-------------------------------------*/
+  
+  .form-wrapper-2 {
+  width: 100%;
+  padding: 5px;
+  background: #555;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+  box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+  }
+  .form-wrapper-2 input {
+  width: 85%;
+  height: 40px;
+  padding: 10px 5px;
+  float: left;
+  font: bold 15px 'Raleway', sans-serif;
+  border: 0;
+  background: #eee;
+  -moz-border-radius: 3px 0 0 3px;
+  -webkit-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+  }
+  .form-wrapper-2 input:focus {
+  outline: 0;
+  background: #fff;
+  -moz-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+  -webkit-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+  box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+  }
+  .form-wrapper-2 input::-webkit-input-placeholder {
+  color: #999;
+  font-weight: normal;
+  font-style: italic;
+  }
+  .form-wrapper-2 input:-moz-placeholder {
+  color: #999;
+  font-weight: normal;
+  font-style: italic;
+  }
+  .form-wrapper-2 input:-ms-input-placeholder {
+  color: #999;
+  font-weight: normal;
+  font-style: italic;
+  }
+  .form-wrapper-2 button {
+  overflow: visible;
+  position: relative;
+  float: right;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  height: 40px;
+  width: 15%;
+  font: bold 15px/40px 'Raleway', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  background: #007bff;
+  -moz-border-radius: 0 3px 3px 0;
+  -webkit-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+  text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+  }
+  .form-wrapper-2 button:hover{
+  background: #7cb3ee;
+  }
+  .form-wrapper-2 button:active,
+  .form-wrapper-2 button:focus{
+  background: #c42f2f;
+  }
+  .form-wrapper-2 button:before {
+  content: '';
+  position: absolute;
+  border-width: 8px 8px 8px 0;
+  border-style: solid solid solid none;
+  border-color: transparent #007bff transparent;
+  top: 12px;
+  left: -6px;
+  }
+  .form-wrapper-2 button:hover:before{
+  border-right-color: #7cb3ee;
+  }
+  .form-wrapper-2 button:focus:before{
+  border-right-color: #c42f2f;
+  }
+  .form-wrapper-2 button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+  }
+
+  /* Icons */
+  .pencil, .remove, .link, .eyeopen, .clock {
+    width: 32px;
+    height: 25px;
+    font-size: 24px;
+    display: block;
+    margin:0 auto;
+    border: none;
+    cursor: pointer;
+    background: url(./icons/pencil.png) 0 0 no-repeat;
+  }
+  .clock {
+    background: url(./icons/clock.png) 0 0 no-repeat;
+  }
+  .eyeopen {
+    background: url(./icons/eye-open.png) 0 0 no-repeat;
+    margin: 0px;
+  }
+  .remove {
+    background: url(./icons/bin.png) 0 0 no-repeat;
+  }
+  .link {
+    background: url(./icons/link.png) 0 0 no-repeat;
+    font-size: 0px;
+    line-height: 0px;
+  }
+  table th {
+    font-size: 14px;
+  }
+  table {
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .searchEventList {
+    padding:0;
+  }
+  .searchEventList li {
+    list-style-type: none;
+    padding: 10px;
+    border: 2px solid #7fc42f;
+    border-radius: 5px;
+    display: block;
+    float: left;
+    min-height: 200px;
+  }
+  .searchEventList li h2 {
+    text-align: center;
+  }
+.thankyou {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #8effb2;
+    margin:0 auto;
+}
+.margin-auto{
+  margin:0 auto;
+}
+.dis {
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom:10px;
+  text-overflow: ellipsis;
+}
+.availableseat{
+  width: 130px;
+  padding: 25px;
+  border: 2px solid #7fc42f;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  font-weight:700;
+}
+.react-confirm-alert-body > h1 {
+  margin-top: 0;
+  font-size: 25px;
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+}
